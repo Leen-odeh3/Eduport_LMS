@@ -1,0 +1,46 @@
+.Describe {
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    width: 500px;
+}
+
+.description {
+    color: #999999;
+
+}
+
+p,
+h1 {
+    line-height: 1.4;
+    font-weight: bold;
+
+
+}
+
+.merg {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width:500px) {
+    .Describe {
+        left: 10px;
+    }
+}
+
+@media (max-width:900px) {
+    .Describe {
+        left: 16px;
+    }
+
+}
+
+@media (max-width:500px) {
+    .merg {
+        position: absolute;
+        left: 70px;
+
+    }
+
+}
