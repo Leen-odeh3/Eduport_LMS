@@ -18,8 +18,7 @@ export default function UploadButtons() {
           },
         }}
       >
-        <input hidden accept="image/*" />
-        <PlayCircleIcon></PlayCircleIcon>
+        <PlayCircleIcon />
       </IconButton>
       <Button
         sx={{ color: "black", fontFamily: "sans-serif", fontSize: "large" }}

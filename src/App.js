@@ -8,10 +8,10 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/Home" element={<Home/>}>  </Route>
-        <Route path="/" element={<Home/>}>  </Route>
+        <Route path="/Home" element={<Home/>}/>  
+        <Route path="/" element={<Home/>}/> 
 
-        <Route path="*" element={<h1>Page Not Found</h1>}>  </Route>
+        <Route path="*" element={<img src="img/error.png" alt=""/>}/>  
        
        
       </Routes>

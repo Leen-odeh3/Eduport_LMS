@@ -6,6 +6,7 @@ import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
+import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 
 const pages = [
   "Home",
@@ -13,7 +14,7 @@ const pages = [
   "Contact",
   "Courses",
   "Events",
-  
+  <MoreHorizIcon></MoreHorizIcon>
  
 ];
 function ResponsiveAppBar() {
@@ -68,11 +69,14 @@ function ResponsiveAppBar() {
               }}
             >
               <Typography
+              
                 textAlign="center"
-                sx={{ color: "black", textTransform: "uppercase",  "&:hover": {
+                sx={{ color: "#747579", textTransform: "uppercase",  "&:hover": {
                   fontWeight: "bold",
-                  color: "#FC6C46",
-                 
+                  "&:hover": {
+                    fontWeight: "bolder",
+                    color: "#FC6C46",
+                  },
                 },}}
               >
                 {page}
@@ -86,12 +90,13 @@ function ResponsiveAppBar() {
         {pages.map((page) => (
          
           <Button
-        
+          href={page}
             key={page}
             onClick={handleCloseNavMenu}
             sx={{
               my: 2,
-              color: "black",
+              color: "#747579",
+              fontWeight: "bold",
               display: "block",
               marginRight: "3px",
               marginLeft: "12px",
