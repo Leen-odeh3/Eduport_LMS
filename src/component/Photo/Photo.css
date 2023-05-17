@@ -25,7 +25,7 @@ body {
 .person {
     height: 550px;
     top: 100px;
-    right: 50px;
+    right: 60px;
 
 }
 
@@ -45,7 +45,7 @@ body {
 
 .figma {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
-    right: 30px;
+    right: 35px;
     top: 400px;
     border-radius: 7px;
     width: 45px;
@@ -73,7 +73,7 @@ body {
 
 @media (max-width:1085px) {
     .person {
-        top: 550px;
+        top: 570px;
     }
 
 

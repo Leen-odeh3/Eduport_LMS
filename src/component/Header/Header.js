@@ -7,7 +7,7 @@ import Profile from "../Profile/Profile";
 import Search from "../Search/Search";
 import Links from "./../Links/Links";
 import Drop from "./../Drop/Drop";
-function ResponsiveAppBar() {
+function Header() {
   return (
     <AppBar
       position="static"
@@ -30,4 +30,4 @@ function ResponsiveAppBar() {
     </AppBar>
   );
 }
-export default ResponsiveAppBar;
+export default Header;

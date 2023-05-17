@@ -14,19 +14,17 @@ const pages = [
   "Contact",
   "Courses",
   "Events",
-  <MoreHorizIcon></MoreHorizIcon>
+  <MoreHorizIcon/>
  
 ];
-function ResponsiveAppBar() {
+function Links() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
-  const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
-  };
+  const handleOpenNavMenu = (event) =>setAnchorElNav(event.currentTarget);
+  
 
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
-  };
+  const handleCloseNavMenu = () => setAnchorElNav(null);
+
 
   return (
     <>
@@ -61,6 +59,7 @@ function ResponsiveAppBar() {
         >
           {pages.map((page) => (
             <MenuItem
+            href={page}
               key={page}
               onClick={handleCloseNavMenu}
               sx={{
@@ -72,11 +71,8 @@ function ResponsiveAppBar() {
               
                 textAlign="center"
                 sx={{ color: "#747579", textTransform: "uppercase",  "&:hover": {
-                  fontWeight: "bold",
-                  "&:hover": {
-                    fontWeight: "bolder",
-                    color: "#FC6C46",
-                  },
+                  fontWeight: "bold", color: "#FC6C46",
+               
                 },}}
               >
                 {page}
@@ -114,4 +110,4 @@ function ResponsiveAppBar() {
     </>
   );
 }
-export default ResponsiveAppBar;
+export default Links;

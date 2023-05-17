@@ -3,7 +3,7 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import Stack from "@mui/material/Stack";
 import PlayCircleIcon from "@mui/icons-material/PlayCircle";
-export default function UploadButtons() {
+export default function WatchVideo() {
   return (
     <Stack direction="row" alignItems="center" sx={{ height: 100 }}>
       <IconButton
