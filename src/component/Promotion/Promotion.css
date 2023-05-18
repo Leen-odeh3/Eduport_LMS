@@ -1,0 +1,22 @@
+.myall {
+    border-radius: 10px;
+    width: 500px;
+}
+
+.ALL {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-left: 80px;
+    margin-top: 50px;
+
+}
+
+.of {
+    color: #747579;
+    font-weight: 450;
+    line-height: 1.9;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
