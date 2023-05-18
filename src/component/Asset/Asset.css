@@ -125,10 +125,7 @@
     }
 
     img.notsad {
-      top:820px;
-        width: 450px;
-        height: 170px;
-        left: 18px;
+    display: none;
     }
 
 
