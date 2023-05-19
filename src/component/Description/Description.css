@@ -6,6 +6,7 @@
 }
 
 .description {
+    
     color: #999999;
 
 }
@@ -27,9 +28,13 @@ p{
     gap: 20px;
 }
 
-@media (max-width:500px) {
+@media (max-width:870px) {
     .Describe {
         left: 10px;
+    }
+    .description{
+        width:400px;
+        margin-left: 10px;
     }
 }
 

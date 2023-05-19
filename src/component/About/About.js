@@ -1,8 +1,8 @@
 import React from 'react';
-import { Grid } from '@material-ui/core';
+import { Grid } from '@mui/material';
 import Box from "./../Box/Box";
-import Portal from './../Portal/Portal'
-import Promotion from '../Promotion/Promotion';
+import BoxTwo from './../BoxTwo/BoxTwo'
+import Social from '../Social/Social';
 const About = () => {
   return (
     <>
@@ -10,13 +10,15 @@ const About = () => {
         <Grid item xs={12} style={{ height: "730px" }}>
           <Box />
         </Grid>
-        <Grid item xs={12} style={{ height: "830px" }}>
-          <Portal />
-          <Promotion />
+        <Grid item xs={12} style={{ height: "830px"}}>
+          <BoxTwo/>
         </Grid>
 
-        <Grid item xs={12} style={{ height: "700px" }}> 
-        {/* Sec 3 */}
+        <Grid item xs={12} className='soi' style={{ height: "350px"}}> 
+        <Social/>
+        </Grid>
+        <Grid item xs={12} className='soi' style={{ height: "650px"}}> 
+        {/* SEC4 */}
         </Grid>
       </Grid>
     </>

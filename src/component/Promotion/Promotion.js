@@ -1,6 +1,7 @@
 import React from "react";
 import "./Promotion.css";
 import VerifiedIcon from "@mui/icons-material/Verified";
+
 const Promotion = () => {
   const data = [
     "Setup and installation takes less time",
@@ -8,26 +9,21 @@ const Promotion = () => {
     "Perfect for any device with pixel-perfect design",
     "Setup and installation too fast",
   ];
+  const paragraph = [
+    "How promotion excellent curiosity yet attempted happiness. Gay prosperous impression had conviction. For every delay death ask to style. Me mean able my by in they. Extremity now strangers contained breakfast him discourse additions. Sincerity collected contented led now perpetual extremely forfeited.",
+    "Happiness prosperous impression had conviction. For every delay in they. Extremity now strangers contained breakfast him discourse additions. Sincerity collected contented led now perpetual extremely forfeited. ",
+  ];
+
   return (
     <div className="ALL">
       <div>
         <img src="img/myall.jpg" alt="" className="myall" />
       </div>
-      <div>
-        <h1> 35,000+ happy students joined with us to achieve their goals </h1>
-        <p className="of">
-          How promotion excellent curiosity yet attempted happiness Gay
-          prosperous impression had conviction For every delay death ask to
-          style Me mean able my by in they Extremity now strangers contained
-          breakfast him discourse additions Sincerity collected contented led
-          now perpetual extremely forfeited
-        </p>
-        <p className="of">
-          Happiness prosperous impression had conviction For every delay in they
-          Extremity now strangers contained breakfast him discourse additions
-          Sincerity collected contented led now perpetual extremely forfeited
-        </p>
-
+      <div className="main">
+        <h1>35,000+ happy students joined with us to achieve their goals</h1>
+        {paragraph.map((el) => (
+          <p className="of">{el}</p>
+        ))}
         {data.map((e) => (
           <p className="of">
             <VerifiedIcon style={{ color: "#0cbc87" }} /> {e}
