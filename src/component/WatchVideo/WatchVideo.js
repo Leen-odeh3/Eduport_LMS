@@ -23,8 +23,7 @@ export default function WatchVideo() {
       <Button
         sx={{ color: "black", fontFamily: "sans-serif", fontSize: "large" }}
         href="https://www.youtube.com/watch?v=Q5oNh7a3B9I"
-        target="_blank"
-      >
+        target="_blank">
         Watch Video
       </Button>
     </Stack>
