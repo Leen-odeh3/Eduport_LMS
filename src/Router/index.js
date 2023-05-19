@@ -16,6 +16,7 @@ function App() {
 
         <Route path="*" element={<img src="img/error.png" alt="" />} />
       </Routes>
+   
     </div>
   );
 }

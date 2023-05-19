@@ -1,16 +1,20 @@
 import React from "react";
 import "./Photo.css";
 const Photo = () => {
+  const array = [
+    { src: "./img/circle.png", className: "circular" },
+    { src: "./img/person.png", className: "person" },
+    { src: "./img/react.png", className: "react" },
+    { src: "./img/star.png", className: "star" },
+    { src: "./img/Figma.png ", className: "figma" },
+    { src: "./img/sttar.png ", className: "sttar" },
+  ];
   return (
     <div className="imgs">
-      <img src="img/circle.png" alt="" className="circular" />
-      <img src="img/person.png" alt="" className="person" />
-      <img src="img/react.png" alt="" className="react" />
-      <img src="img/star.png" alt="" className="star" />
-      <img src="img/Figma.png " alt="" className="figma" />
-      <img src="img/sttar.png " alt="" className="sttar" />
+      {array.map((e) => (
+        <img src={e.src} alt="" className={e.className} />
+      ))}
     </div>
   );
 };
-
 export default Photo;

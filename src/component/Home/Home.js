@@ -3,19 +3,32 @@ import Photo from "../Photo/Photo";
 import "./Home.css";
 import Message from "./../Message/Message";
 import Description from "../Description/Description";
-import Box from "@mui/material/Box";
-import Grid from "@mui/material/Grid";
+import { Grid } from "@material-ui/core";
 const Home = () => {
   return (
     <>
-      <Box sx={{ flexGrow: 1 }}>
-        <Grid xs={12}>
-          <Photo />
-          <Description />
+      <Grid container spacing={2}>
+        <Grid item xs={12} style={{ height: "600px" }}>
+          <Photo/>
+          <Description/>
           <Message />
-         
         </Grid>
-      </Box>
+        <Grid item xs={12} style={{ height: "500" }}>
+         {/* <Card/> */}
+        </Grid>
+        <Grid item xs={12} style={{ height: "900px" }}>
+          {/* Sec 3 */}
+        </Grid>
+        <Grid item xs={12} style={{ height: "400px" }}>
+          {/* Sec 4 */}
+        </Grid>
+        <Grid item xs={12} style={{ height: "700px" }}>
+          {/* Sec 5 */}
+        </Grid>
+        <Grid item xs={12} style={{ height: "800px" }}>
+          {/* Sec 6 */}
+        </Grid>   
+      </Grid>
     </>
   );
 };
