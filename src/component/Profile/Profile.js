@@ -4,27 +4,42 @@ import Avatar from '@mui/material/Avatar';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
-import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
 import Tooltip from '@mui/material/Tooltip';
 import PersonAdd from '@mui/icons-material/PersonAdd';
 import Settings from '@mui/icons-material/Settings';
 import Logout from '@mui/icons-material/Logout';
 import './Profile.css'
-
+const menuItems = [
+  {
+    label: 'Profile',
+    icon: <Avatar />,
+  },
+  {
+    label: 'My account',
+    icon: <Avatar />,
+  },
+  {
+    label: 'Add another account',
+    icon: <PersonAdd fontSize="small" />,
+  },
+  {
+    label: 'Settings',
+    icon: <Settings fontSize="small" />,
+  },
+  {
+    label: 'Logout',
+    icon: <Logout fontSize="small" />,
+  },
+];
 export default function AccountMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
+  const handleClick = (event) =>setAnchorEl(event.currentTarget);
+  const handleClose = () => setAnchorEl(null);
   return (
     <React.Fragment>
       <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
-       
         <Tooltip title="Account settings">
           <IconButton
             onClick={handleClick}
@@ -34,7 +49,7 @@ export default function AccountMenu() {
             aria-haspopup="true"
             aria-expanded={open ? 'true' : undefined}
           >
-        <img src="../../../img/profileimg.jpg" alt="My-Img-Profile" className='MyProfileimg'/>
+        <img src="img/profileimg.jpg" alt="My-Img-Profile" className='MyProfileimg'/>
           </IconButton>
         </Tooltip>
       </Box>
@@ -73,31 +88,12 @@ export default function AccountMenu() {
         transformOrigin={{ horizontal: 'right', vertical: 'top' }}
         anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
       >
-        <MenuItem onClick={handleClose}>
-          <Avatar /> Profile
-        </MenuItem>
-        <MenuItem onClick={handleClose}>
-          <Avatar /> My account
-        </MenuItem>
-        <Divider />
-        <MenuItem onClick={handleClose}>
-          <ListItemIcon>
-            <PersonAdd fontSize="small" />
-          </ListItemIcon>
-          Add another account
-        </MenuItem>
-        <MenuItem onClick={handleClose}>
-          <ListItemIcon>
-            <Settings fontSize="small" />
-          </ListItemIcon>
-          Settings
-        </MenuItem>
-        <MenuItem onClick={handleClose}>
-          <ListItemIcon>
-            <Logout fontSize="small" />
-          </ListItemIcon>
-          Logout
-        </MenuItem>
+         {menuItems.map((menuItem, index) => (
+    <MenuItem key={index} onClick={handleClose}>
+      <ListItemIcon>{menuItem.icon}</ListItemIcon>
+      {menuItem.label}
+    </MenuItem>
+  ))}
       </Menu>
     </React.Fragment>
   );

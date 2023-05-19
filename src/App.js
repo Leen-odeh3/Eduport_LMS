@@ -7,14 +7,8 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element=""></Route>
-        <Route path="/" element="">
-          {" "}
-        </Route>
-
-        <Route path="*" element={<h1>Page Not Found</h1>}>
-          {" "}
-        </Route>
+        <Route path="/" element=""/>
+        <Route path="*" element={<h1>Page Not Found</h1>}/>
       </Routes>
     </div>
   );

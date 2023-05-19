@@ -12,9 +12,7 @@ const pages = [
   "About",
   "Contact",
   "Courses",
-  "Events",
-  
- 
+  "Events"
 ];
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

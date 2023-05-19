@@ -4,7 +4,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Container from "@mui/material/Container";
 import Logo from "../Logo/Logo";
 import Profile from "../Profile/Profile";
-import Search from "../Search/Search";
+import Search from "../Searchh/Searchh";
 import Links from "./../Links/Links";
 function ResponsiveAppBar() {
   return (
