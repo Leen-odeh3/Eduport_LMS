@@ -43,6 +43,7 @@ function Links() {
 
   const handleCloseNavMenu = (e) => {
     setAnchorElNav(null);
+  
   };
 
   return (

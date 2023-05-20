@@ -10,8 +10,8 @@ const Promotion = () => {
     "Setup and installation too fast",
   ];
   const paragraph = [
-    "How promotion excellent curiosity yet attempted happiness. Gay prosperous impression had conviction. For every delay death ask to style. Me mean able my by in they. Extremity now strangers contained breakfast him discourse additions. Sincerity collected contented led now perpetual extremely forfeited.",
-    "Happiness prosperous impression had conviction. For every delay in they. Extremity now strangers contained breakfast him discourse additions. Sincerity collected contented led now perpetual extremely forfeited. ",
+    {p:"How promotion excellent curiosity yet attempted happiness. Gay prosperous impression had conviction. For every delay death ask to style. Me mean able my by in they. Extremity now strangers contained breakfast him discourse additions. Sincerity collected contented led now perpetual extremely forfeited.",id:1}
+   ,{p: "Happiness prosperous impression had conviction. For every delay in they. Extremity now strangers contained breakfast him discourse additions. Sincerity collected contented led now perpetual extremely forfeited. ",id:2}
   ];
 
   return (
@@ -22,7 +22,7 @@ const Promotion = () => {
       <div className="main">
         <h1>35,000+ happy students joined with us to achieve their goals</h1>
         {paragraph.map((el) => (
-          <p className="of">{el}</p>
+          <p className="of" key={el.id}>{el.p}</p>
         ))}
         {data.map((e) => (
           <p className="of">
