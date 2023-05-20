@@ -38,11 +38,15 @@ function Links() {
   }, []);
 
   const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
+    event.preventDefault();
+    // setAnchorElNav(event.currentTarget);
   };
 
   const handleCloseNavMenu = (e) => {
-    setAnchorElNav(null);
+  
+    e.preventDefault();
+    navigate(e.target.innerText)
+    // ssetAnchorElNav(null);
   
   };
 

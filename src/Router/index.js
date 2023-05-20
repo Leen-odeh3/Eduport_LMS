@@ -6,16 +6,17 @@ import About from "./../component/About/About";
 import Layout from "./Layout";
 // import {Routte} from "./Routte"
 function App() {
+  
   return (
     <div className="App">
       {/* <Header /> */}
 
       <Routes>
         <Route element={<Layout/>} >
-        <Route path="/home" element={<Home />} />
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="*" element={<img src="img/error.png" alt="" />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="*" element={<img src="img/error.png" alt="" />} />
         </Route>
       </Routes>
    
