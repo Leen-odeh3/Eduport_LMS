@@ -3,6 +3,7 @@ import { Grid } from '@mui/material';
 import Box from "./../Box/Box";
 import BoxTwo from './../BoxTwo/BoxTwo'
 import Social from '../Social/Social';
+import Some from '../Some/Some';
 const About = () => {
   return (
     <>
@@ -18,7 +19,7 @@ const About = () => {
         <Social/>
         </Grid>
         <Grid item xs={12} className='soi' style={{ height: "650px"}}> 
-        {/* SEC4 */}
+       <Some/>
         </Grid>
       </Grid>
     </>
