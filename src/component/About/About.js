@@ -1,9 +1,9 @@
 import React from 'react';
-import { Grid } from '@mui/material';
+import Grid from '@mui/material/Grid';
 import Box from "./../Box/Box";
-import BoxTwo from './../BoxTwo/BoxTwo'
+import Portal from './../Portal/Portal'
+import Promotion from '../Promotion/Promotion';
 import Social from '../Social/Social';
-import Some from '../Some/Some';
 const About = () => {
   return (
     <>
@@ -12,14 +12,12 @@ const About = () => {
           <Box />
         </Grid>
         <Grid item xs={12} style={{ height: "830px"}}>
-          <BoxTwo/>
+          <Portal />
+          <Promotion />
         </Grid>
 
-        <Grid item xs={12} className='soi' style={{ height: "350px"}}> 
+        <Grid item xs={12} style={{ height: "350px",backgroundColor:"#eeeeee",marginTop:"60px" }}> 
         <Social/>
-        </Grid>
-        <Grid item xs={12} className='soi' style={{ height: "650px"}}> 
-       <Some/>
         </Grid>
       </Grid>
     </>

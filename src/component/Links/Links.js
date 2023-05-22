@@ -7,7 +7,6 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
-import { useNavigate } from "react-router-dom";
 
 const pages = [
   "Home",
@@ -21,7 +20,6 @@ const pages = [
 function Links() {
   const [anchorElNav, setAnchorElNav] = useState(null);
   const [isMobile, setIsMobile] = useState(false);
-  const navigate=useNavigate();
 
   useEffect(() => {
     const handleResize = () => {
@@ -38,16 +36,11 @@ function Links() {
   }, []);
 
   const handleOpenNavMenu = (event) => {
-    event.preventDefault();
-    // setAnchorElNav(event.currentTarget);
+    setAnchorElNav(event.currentTarget);
   };
 
-  const handleCloseNavMenu = (e) => {
-  
-    e.preventDefault();
-    navigate(e.target.innerText)
-    // ssetAnchorElNav(null);
-  
+  const handleCloseNavMenu = () => {
+    setAnchorElNav(null);
   };
 
   return (
