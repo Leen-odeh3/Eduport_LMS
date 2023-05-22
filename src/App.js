@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-
       <Routes>
         <Route path="/" element=""/>
         <Route path="*" element={<h1>Page Not Found</h1>}/>
