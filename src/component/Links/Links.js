@@ -15,29 +15,12 @@ const pages = [
 function Links() {
   const [anchorElNav, setAnchorElNav] = useState(null);
   const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-
-    handleResize(); // Check on initial render
-
-    window.addEventListener("resize", handleResize); // Add event listener for window resize
-
-    return () => {
-      window.removeEventListener("resize", handleResize); // Clean up event listener on component unmount
-    };
-  }, []);
-
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
-
   return (
     <>
       <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
