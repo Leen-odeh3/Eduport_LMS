@@ -1,0 +1,9 @@
+.warrd{
+    display: flex;
+    justify-content: space-between;
+    width:340px;
+    margin-left: 90px;
+}
+.year,.de{
+    margin: 10px;
+}

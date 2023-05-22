@@ -1,0 +1,37 @@
+/* .allCard{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    width:1100px;
+    margin: auto;
+    font-weight: bold;
+    
+}
+.A,.B,.C,.D{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:220px;
+    border-radius: 10px;
+    height: 80px;
+      padding: 15px;
+}
+.A{
+    background-color: #f7c32e26;
+  
+    
+}
+.B{
+    background-color: #1d3b531a;
+}
+.D{
+    background-color: #17a2b81a;
+}
+.C{
+    background-color: #6f42c11a;
+}
+.icon{
+    width:150px;
+    height: 80px;
+}
+ */
