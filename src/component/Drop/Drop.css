@@ -1,0 +1,24 @@
+.btnn,
+.btn {
+    background-color: #ebf6ff !important;
+    color: #066ac9;
+    border: none;
+    border-radius: 10px !important;
+    width: 140px;
+    height: 55px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: bold !important;
+    text-transform: capitalize;
+}
+.btn {
+    width: 200px;
+    height: 40px;
+
+
+}
+@media (max-width:500px) {
+    .Drop {
+        display: none;
+    }
+}
