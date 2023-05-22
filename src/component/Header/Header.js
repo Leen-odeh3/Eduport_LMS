@@ -1,0 +1,27 @@
+import * as React from "react";
+import AppBar from "@mui/material/AppBar";
+import Toolbar from "@mui/material/Toolbar";
+import Container from "@mui/material/Container";
+import Logo from "../Logo/Logo";
+import Profile from "../Profile/Profile";
+import Search from "../Searchh/Searchh";
+import Links from "./../Links/Links";
+function ResponsiveAppBar() {
+  return (
+    <AppBar
+      position="static"
+      sx={{ backgroundColor: "white", boxShadow: "none" }}
+    >
+      <Container maxWidth="xl">
+        <Toolbar disableGutters>
+          <Logo />
+         
+          <Links />
+          <Search />
+          <Profile />
+        </Toolbar>
+      </Container>
+    </AppBar>
+  );
+}
+export default ResponsiveAppBar;
