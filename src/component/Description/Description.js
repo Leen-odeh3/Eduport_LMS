@@ -18,7 +18,6 @@ const Description = () => {
       </p>
 
       <Buttom />
-      {/*  */}
       <div className="merg">
         <Stack spacing={2} direction="row">
           <Button
