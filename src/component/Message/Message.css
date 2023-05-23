@@ -1,0 +1,15 @@
+.message {
+    position: absolute;
+    top: 190px;
+    right: 16px;
+    z-index: 100;
+    width: 200px;
+    border-radius: 10px;
+}
+
+@media (max-width:750px) {
+    .message {
+        top: 640px;
+        right: 3px;
+    }
+}
