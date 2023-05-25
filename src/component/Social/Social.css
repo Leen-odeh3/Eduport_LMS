@@ -1,0 +1,26 @@
+.social{
+    height: 300px;
+    width:1000px;
+   margin-left: 120px;
+   margin-top: 70px;
+}
+.a ,.b,.c,.d,.e,.f,.g,.h,.i,.g,.k{
+    width:170px;
+    height:35px;
+    filter: grayscale(100%);
+}
+.divone{
+    display: flex;
+    gap:33px;
+    justify-content: space-around;
+}
+.divtwo{
+    margin-top: 80px;
+    display: flex;
+    gap:60px;
+    justify-content: space-around;
+}
+.a:hover, .b:hover,.c:hover,.d:hover,.e:hover,.f:hover,.h:hover,.i:hover,.g:hover,.k:hover,.g:hover {
+    filter: grayscale(0);
+ }
+

@@ -1,0 +1,36 @@
+h5 {
+    color: #747579;
+}
+
+.Merr {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    top: 20px;
+}
+
+.a1 {
+    left: 90px;
+}
+
+.a2 {
+    left: 250px;
+}
+
+.a3 {
+    left: 450px;
+}
+
+.a4 {
+    left: 600px;
+}
+@media (max-width:700px){
+    .Merr {
+        display:block;
+    }
+}
