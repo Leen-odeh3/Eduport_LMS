@@ -3,25 +3,31 @@ import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Container from "@mui/material/Container";
 import Logo from "../Logo/Logo";
-import Profile from "../Profile/Profile";
 import Search from "../Search/Search";
 import Links from "./../Links/Links";
-
-function ResponsiveAppBar() {
+import Drop from "./../Drop/Drop";
+import SSignn from "../SSignn/SSignn";
+function Header() {
   return (
     <AppBar
       position="static"
-      sx={{ backgroundColor: "white", boxShadow: "none",height:"100px",padding:2 }}
+      sx={{
+        backgroundColor: "white",
+        boxShadow: "none",
+        height: "100px",
+        padding: 2,
+      }}
     >
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" >
         <Toolbar disableGutters>
           <Logo />
+          <Drop />
           <Links />
           <Search />
-          <Profile />
+          <SSignn/>
         </Toolbar>
       </Container>
     </AppBar>
   );
 }
-export default ResponsiveAppBar;
+export default Header;

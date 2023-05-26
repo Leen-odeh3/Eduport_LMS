@@ -1,0 +1,19 @@
+.portal {
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 80px;
+    color: #24292d;
+}
+
+.promotion {
+    color: #747579;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+@media (max-width:700px) {
+    .portal {
+        width: fit-content;
+        margin-left: 30px;
+    }
+}

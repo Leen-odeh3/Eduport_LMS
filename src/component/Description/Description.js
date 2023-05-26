@@ -8,11 +8,11 @@ const Description = () => {
   return (
     <div className="Describe">
       <h1>
-        Limitless learning at your{" "}
-        <img src="./../../../img/Haylayte.png" width="200px" alt=""></img>
+        Limitless learning at your
+        <img src="img/Haylayte.png" width="300px" className="haylayt"  alt=""></img>
       </h1>
       <p className="description">
-        {" "}
+    
         Online learning and teaching marketplace with 5K+ courses & 10M
         students. Taught by experts to help you acquire new skills.
       </p>

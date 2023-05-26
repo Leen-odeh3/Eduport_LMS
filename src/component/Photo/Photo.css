@@ -25,8 +25,7 @@ body {
 .person {
     height: 550px;
     top: 100px;
-    right: 50px;
-
+    right: 60px;
 }
 
 .react {
@@ -40,12 +39,12 @@ body {
 
 .sttar {
     left: 540px;
-    top: 480px;
+    top: 490px;
 }
 
 .figma {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
-    right: 30px;
+    right: 35px;
     top: 400px;
     border-radius: 7px;
     width: 45px;
@@ -59,34 +58,38 @@ body {
     }
 
     .react {
-        top: 800px;
+        top: 600px;
     }
-
 }
 
 @media (max-width:1200px) {
     .person {
         width: 420px;
     }
-
 }
 
 @media (max-width:1085px) {
     .person {
-        top: 550px;
+        top: 570px;
     }
-
-
 }
 
 @media (max-width:800px) {
     .figma {
         top: 980px;
     }
+
+    .person {
+        left: 50px;
+    }
 }
 
 @media (max-width:700px) {
     .sttar {
         top: 800px;
+    }
+
+    .person {
+        left: 50px;
     }
 }

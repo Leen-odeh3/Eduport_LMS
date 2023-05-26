@@ -1,0 +1,15 @@
+.warrd {
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+
+}
+.year,
+.de {
+    margin: 10px;
+    font-weight:500;
+
+}
+.de {
+    color: dimgray;
+}

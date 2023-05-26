@@ -1,0 +1,64 @@
+.allCard {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 1100px;
+    margin: auto;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.A,
+.B,
+.C,
+.D {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+    border-radius: 10px;
+    height: 80px;
+    padding: 15px;
+    font-size: larger;
+    gap: 18px;
+}
+
+.A {
+    background-color: #f7c32e26;
+}
+
+.B {
+    background-color: #1d3b531a;
+}
+
+.D {
+    background-color: #17a2b81a;
+}
+
+.C {
+    background-color: #6f42c11a;
+}
+
+.bl {
+    display: block;
+}
+
+.k {
+    display: flex;
+    gap: 5px;
+}
+
+.card {
+    display: flex;
+    padding-left: 50px;
+}
+
+@media (max-width:800px) {
+    .card {
+        position: absolute;
+        top: 1050px;
+        width: 600px;
+        gap: 20px;
+        display: block;
+    }
+}

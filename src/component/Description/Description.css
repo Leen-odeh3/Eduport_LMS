@@ -6,16 +6,21 @@
 }
 
 .description {
+    
     color: #999999;
 
 }
 
-p,
-h1 {
-    line-height: 1.4;
+
+h1{
+    color: #24292d;
+    font-size: 35px;
+}
+
+p{
+    line-height: 1.2;
     font-weight: bold;
-
-
+    font-size: 15px;
 }
 
 .merg {
@@ -23,9 +28,13 @@ h1 {
     gap: 20px;
 }
 
-@media (max-width:500px) {
+@media (max-width:870px) {
     .Describe {
         left: 10px;
+    }
+    .description{
+        width:400px;
+        margin-left: 10px;
     }
 }
 
@@ -42,5 +51,11 @@ h1 {
         left: 70px;
 
     }
+    h1{
+        font-size:35px;
+        
+    }
+    
+   
 
 }

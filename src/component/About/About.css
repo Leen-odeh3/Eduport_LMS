@@ -1,0 +1,14 @@
+.CarANDwar {
+    display: flex;
+    gap: 2px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width:800px) {
+    .CarANDwar {
+        margin-top: 600px;
+        display: block;
+        margin-left: 70px;
+    }
+}
