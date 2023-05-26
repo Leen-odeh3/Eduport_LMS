@@ -7,7 +7,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
-
+import { useNavigate } from "react-router-dom";
 const pages = [
   "Home",
   "About",
@@ -16,33 +16,27 @@ const pages = [
   "Events",
   <MoreHorizIcon />
 ];
-
 function Links() {
-  const [anchorElNav, setAnchorElNav] = useState(null);
   const [isMobile, setIsMobile] = useState(false);
-
+  const navigate=useNavigate();
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
     };
-
     handleResize(); // Check on initial render
 
     window.addEventListener("resize", handleResize); // Add event listener for window resize
-
     return () => {
       window.removeEventListener("resize", handleResize); // Clean up event listener on component unmount
     };
   }, []);
-
   const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
+    event.preventDefault();
   };
-
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
+  const handleCloseNavMenu = (e) => {
+    e.preventDefault();
+    navigate(e.target.innerText)  
   };
-
   return (
     <>
       {isMobile && (
@@ -59,7 +53,6 @@ function Links() {
           </IconButton>
           <Menu
             id="menu-appbar"
-            anchorEl={anchorElNav}
             anchorOrigin={{
               vertical: "bottom",
               horizontal: "left",
@@ -69,7 +62,6 @@ function Links() {
               vertical: "top",
               horizontal: "left",
             }}
-            open={Boolean(anchorElNav)}
             onClose={handleCloseNavMenu}
             sx={{
               display: { xs: "block", md: "none", color: "black" },
