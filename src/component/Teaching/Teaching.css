@@ -1,0 +1,50 @@
+.teach {
+    background-color: #17a2b8;
+    border-radius: 10px;
+    width: 1100px;
+    padding: 40px;
+    margin: auto;
+    margin-left: 40px;
+}
+
+h1,
+.say {
+    color: white;
+}
+
+p {
+    width: 800px;
+}
+
+.bt {
+    color: #f7c32e;
+    border: 1px solid #f7c32e;
+    outline: none;
+    background-color: #17a2b8;
+    width: 200px;
+    height: 50px;
+    margin-left: 850px;
+    border-radius: 10px;
+}
+
+.bt:hover {
+    background-color: #f7c32e;
+    color: black;
+}
+
+@media (max-width:700px) {
+    .teach {
+        margin-left: 10px;
+        width: 500px;
+        position: absolute;
+        top: 6180px;
+    }
+
+    p {
+        width: 200px;
+    }
+
+    .bt {
+        display: none;
+    }
+}
