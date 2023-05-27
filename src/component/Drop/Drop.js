@@ -33,7 +33,6 @@ export default function Drop() {
   const handleClose = () => {
     setAnchorEl(null);
   };
-
   return (
     <div className="Drop">
       <IconButton
@@ -48,7 +47,6 @@ export default function Drop() {
           className="btnn"
           startIcon={<HdrWeakIcon></HdrWeakIcon>}
         >
-          {" "}
           Category
         </Button>
       </IconButton>

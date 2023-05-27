@@ -1,6 +1,7 @@
 body {
     position: relative;
 }
+
 .react,
 .star,
 .person,
@@ -9,20 +10,24 @@ body {
 .circular {
     position: absolute;
 }
+
 .circular {
     top: 80px;
     left: 60px;
 }
+
 .star {
     top: 150px;
     left: 290px;
     width: 50px;
 }
+
 .person {
     height: 550px;
     top: 100px;
     right: 60px;
 }
+
 .react {
     top: 280px;
     right: 510px;
@@ -31,10 +36,12 @@ body {
     height: 55px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
 }
+
 .sttar {
     left: 540px;
     top: 490px;
 }
+
 .figma {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
     right: 35px;
@@ -43,32 +50,46 @@ body {
     width: 45px;
     height: 60px;
 }
+
 @media (max-width:1200px) {
     .person {
         width: 450px;
         height: 500px;
-            }
+    }
+
     .react {
-        top: 800px;
-           }
+        top: 600px;
+    }
 }
+
 @media (max-width:1200px) {
     .person {
         width: 420px;
-            }
+    }
 }
+
 @media (max-width:1085px) {
     .person {
         top: 570px;
-            }
+    }
 }
+
 @media (max-width:800px) {
     .figma {
         top: 980px;
-           }
+    }
+
+    .person {
+        left: 50px;
+    }
 }
+
 @media (max-width:700px) {
     .sttar {
         top: 800px;
+    }
+
+    .person {
+        left: 50px;
     }
 }
