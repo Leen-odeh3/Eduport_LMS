@@ -1,13 +1,18 @@
 h5 {
     color: #747579;
 }
-h5:hover{
+
+h5:hover {
     color: rgb(68, 68, 245);
     cursor: pointer;
 }
-.childa1,.childa2,.childa3{
-    width:130px;
+
+.childa1,
+.childa2,
+.childa3 {
+    width: 130px;
 }
+
 .Merr {
     display: flex;
     justify-content: space-between;
@@ -23,7 +28,6 @@ h5:hover{
 .a1 {
     left: 90px;
 }
-
 .a2 {
     left: 250px;
 }

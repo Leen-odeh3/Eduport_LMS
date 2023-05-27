@@ -6,14 +6,24 @@
 }
 .main{
     margin-bottom: 50px;
-    width:300px;
 }
-.a,.b,.c,.d{
-    color:rgb(75, 75, 208);
+.aa,.bb,.cc,.dd{
     width:60px;
     height: 60px;
     margin-right: 20px;
     margin-top: 30px;
+}
+.aa{
+    color:#24292f;
+}
+.bb{
+    color:#238cc8;
+}
+.cc{
+    color:#5d82d1;
+}
+.dd{
+    color:#c22b72;
 }
 .edu{  
    margin-bottom: 40px;

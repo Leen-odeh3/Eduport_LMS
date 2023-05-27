@@ -8,22 +8,22 @@ const Edu = () => {
     {
       href: "https://github.com/Leen-odeh12",
       icon: <GitHubIcon />,
-      class: "a",
+      class: "aa",
     },
     {
       href: "https://www.linkedin.com/in/leen-odeh3/",
       icon: <LinkedInIcon />,
-      class: "b",
+      class: "bb",
     },
     {
       href: "https://www.facebook.com/profile.php?id=100045529333705",
       icon: <FacebookIcon />,
-      class: "c",
+      class: "cc",
     },
     {
       href: "https://www.instagram.com/leen.odeh12/?next=%2Fleen.odeh12%2F",
       icon: <InstagramIcon />,
-      class: "d",
+      class: "dd",
     },
   ];
   return (

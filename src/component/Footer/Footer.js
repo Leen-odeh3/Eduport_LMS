@@ -13,11 +13,11 @@ const Footer = () => {
         <div className="aas">
           <Company />
         </div>
-        <Divider/>
+        <Divider />
       </div>
       <div className="end">
-        <p className='sop'>Copyrights ©2023 Webestica. All rights reserved. </p>
-        <div className='of'>
+        <p className="sop">Copyrights ©2023 Webestica. All rights reserved. </p>
+        <div className="of">
           <p>Terms of use </p>
           <p>Privacy policy</p>
         </div>
