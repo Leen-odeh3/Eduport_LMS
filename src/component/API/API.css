@@ -1,0 +1,30 @@
+.col{
+    text-align: center;
+    padding-top: 50px;
+}
+.btnall{
+    margin: auto;
+  padding: 10px;
+    width:700px;
+}
+.allco{
+    margin-left: 50px;
+    display: flex;
+    gap:50px;
+    align-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+@media (max-width:700px){
+    .col{
+        position: absolute;
+        top:1700px;
+    }
+    .btnall{    position: absolute;
+        top:1900px;}
+    .allco{
+        position: absolute;
+        top:2000px;
+        display: block;
+    }
+}
