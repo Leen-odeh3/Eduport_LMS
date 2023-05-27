@@ -3,19 +3,19 @@ import'./Social.css'
 const Social = () => {
  
 const social = [
-  { src: "img/algolia.png", className: "a" },
-  { src: "img/android.png", className: "b" },
-  { src: "img/yamaha.png", className: "c" },
-  { src: "img/coca-cola.png", className: "d" },
-  { src: "img/shippable.png", className: "e" },
-   { src: "img/importio.png", className: "k" },
+  { id:1, src: "img/algolia.png", className: "a" },
+  { id:2, src: "img/android.png", className: "b" },
+  {id:3,  src: "img/yamaha.png", className: "c" },
+  {id:4,  src: "img/coca-cola.png", className: "d" },
+  { id:5, src: "img/shippable.png", className: "e" },
+   {id:6,  src: "img/importio.png", className: "k" },
 ];
 const social2 = [
-  { src: "img/netflix.png", className: "f" },
-  { src: "img/envato.png", className: "g" },
-  { src: "img/coca-cola.png", className: "h" },
-  { src: "img/microsoft.png", className: "i" },
-  { src: "img/linkedin.png", className: "g" }
+  {id:1,  src: "img/netflix.png", className: "f" },
+  {id:2, src: "img/envato.png", className: "g" },
+  {id:3, src: "img/coca-cola.png", className: "h" },
+  {id:4, src: "img/microsoft.png", className: "i" },
+  {id:5,  src: "img/linkedin.png", className: "g" }
  
 ];
 
@@ -23,12 +23,12 @@ return (
   <div className="social">
     <div className='divone'>
     {social.map((e) => (
-      <img src={e.src} alt="" className={e.className} />
+      <img  key={e.id} src={e.src} alt="" className={e.className} />
     ))}
     </div>
     <div className='divtwo'>
     {social2.map((e) => (
-      <img src={e.src} alt="" className={e.className} />
+      <img key={e.id} src={e.src} alt="" className={e.className} />
     ))}
   </div>
   </div>
