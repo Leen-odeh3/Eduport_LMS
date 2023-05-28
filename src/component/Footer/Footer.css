@@ -1,0 +1,44 @@
+.aallll{
+    display: flex;
+    gap:60px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.main{
+    margin-bottom: 50px;
+}
+.aa,.bb,.cc,.dd{
+    width:60px;
+    height: 60px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.aa{
+    color:#24292f;
+}
+.bb{
+    color:#238cc8;
+}
+.cc{
+    color:#5d82d1;
+}
+.dd{
+    color:#c22b72;
+}
+.edu{  
+   margin-bottom: 40px;
+    width:300px;
+}
+.sop{
+    width:1000px;
+}
+.end{
+    display: flex;
+    gap:300px;
+    margin-left: 60px;
+}
+.of{
+    font-weight: lighter;
+    display: flex;
+    gap:15px;
+}
