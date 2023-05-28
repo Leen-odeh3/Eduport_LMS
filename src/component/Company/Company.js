@@ -14,25 +14,27 @@ const Company = () => {
     "Contact",
     "Toll free:+1234 568 963",
     " Email:example@gmail.com",
+    <img src="img/app-store.png" alt="contact"/>,
+    <img src="img/google-play.png" alt="contact"/>
   ];
   return (
     <div class="Merr">
-      <div className="child a1">
+      <div className="childa1">
         {arr.map((e) => (
           <h5>{e}</h5>
         ))}
       </div>
-      <div className="child a2">
+      <div className="childa2">
         {arr1.map((e) => (
           <h5>{e}</h5>
         ))}{" "}
       </div>
-      <div className="child a3">
+      <div className="childa3">
         {arr2.map((e) => (
           <h5>{e}</h5>
         ))}
       </div>
-      <div className="child a4">
+      <div className="childa4">
         {arr3.map((e) => (
           <h5>{e}</h5>
         ))}
