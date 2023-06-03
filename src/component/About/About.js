@@ -1,9 +1,12 @@
-import React from 'react';
-import Grid from '@mui/material/Grid';
+import React from "react";
+import { Grid } from "@mui/material";
 import Box from "./../Box/Box";
-import Portal from './../Portal/Portal'
-import Promotion from '../Promotion/Promotion';
-import Social from '../Social/Social';
+import BoxTwo from "./../BoxTwo/BoxTwo";
+import Social from "../Social/Social";
+import Carousel from "./../Carousal/Carousal";
+import Ward from "../Ward/Ward";
+import "./About.css";
+
 const About = () => {
   return (
     <>
@@ -11,13 +14,18 @@ const About = () => {
         <Grid item xs={12} style={{ height: "730px" }}>
           <Box />
         </Grid>
-        <Grid item xs={12} style={{ height: "830px"}}>
-          <Portal />
-          <Promotion />
+        <Grid item xs={12} style={{ height: "830px" }}>
+          <BoxTwo />
         </Grid>
 
-        <Grid item xs={12} style={{ height: "350px",backgroundColor:"#eeeeee",marginTop:"60px" }}> 
-        <Social/>
+        <Grid item xs={12} className="soi" style={{ height: "350px" }}>
+          <Social />
+        </Grid>
+        <Grid item xs={12} className="soi" style={{ height: "550px" }}>
+          <div className="CarANDwar">
+            <Ward />
+            <Carousel />
+          </div>
         </Grid>
       </Grid>
     </>

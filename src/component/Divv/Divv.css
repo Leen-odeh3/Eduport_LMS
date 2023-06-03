@@ -1,0 +1,17 @@
+.Divv{
+    display: flex;
+    width:550px;
+    gap:10px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 50px;
+    background-color: #c0b6bc5c;
+    padding-left: 30px;
+}
+.get{
+    width:300px;
+    padding-bottom: 40px;
+}
+.iimmgg{
+    padding-top: 30px;
+}
