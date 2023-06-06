@@ -6,7 +6,7 @@ import Logo from "../Logo/Logo";
 import Search from "../Search/Search";
 import Links from "./../Links/Links";
 import Drop from "./../Drop/Drop";
-import SSignn from "../SSignn/SSignn";
+import Profile from "./../Profile/Profile"
 function Header() {
   return (
     <AppBar
@@ -24,7 +24,7 @@ function Header() {
           <Drop />
           <Links />
           <Search />
-          <SSignn/>
+         <Profile/>
         </Toolbar>
       </Container>
     </AppBar>

@@ -5,7 +5,6 @@ import TvIcon from "@mui/icons-material/Tv";
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import SchoolIcon from "@mui/icons-material/School";
 import VerifiedIcon from "@mui/icons-material/Verified";
-import { Box } from "@mui/material";
 
 function Number({ n }) {
   const { number } = useSpring({
