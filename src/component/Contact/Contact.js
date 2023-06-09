@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div>
       <Grid container spacing={2}>
-        <Grid item xs={12} style={{ height: "470px" }}>
+        <Grid item xs={12} style={{ height: "420px" }}>
           <h2 className="helo">We're here to help!</h2>
           <CardContact />
         </Grid>

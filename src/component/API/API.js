@@ -121,7 +121,7 @@ const Courses = () => {
           <p>Choose from hundreds of courses from specialist organizations</p>
         </div>
       </div>
-      <div>{loading ? <Loading /> : <ShowCourse />}</div>
+      <div> {loading ? <Loading /> : <ShowCourse />}</div>
     </div>
   );
 };

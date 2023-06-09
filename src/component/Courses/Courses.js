@@ -10,7 +10,7 @@ const Courses = () => {
     <div>
       <Grid container spacing={2}>
         <Grid item xs={12} className="soi" style={{ height: "40px" }}></Grid>
-        <Grid className="partone" item xs={12} style={{ height: "400px" }}>
+        <Grid className="partone" item xs={12} style={{ height: "320px" }}>
           <Partone />
         </Grid>
         <Grid item xs={12} style={{ height: "1200px" }}>
