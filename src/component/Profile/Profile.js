@@ -16,12 +16,12 @@ const menuItems = [
   {
     label: 'Profile',
     icon: <Avatar />,
-    page:'Myaccount'
+    page:'MyProfile'
   },
   {
     label: 'My account',
     icon: <Avatar />,
-    page:'account'
+    page:'Myaccount'
   },
   {
     label: 'Add another account',

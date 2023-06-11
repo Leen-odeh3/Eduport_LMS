@@ -55,7 +55,6 @@ const Courses = () => {
                       style={{ color: "#0cbc87", fontWeight: "bold" }}
                       endIcon={<FavoriteBorderIcon />}
                     >
-                      {" "}
                       {Courses.level}
                     </Button>
                     <Typography gutterBottom variant="h5" component="div">

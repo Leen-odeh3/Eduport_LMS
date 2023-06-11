@@ -1,0 +1,90 @@
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+}
+.login {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 100px;
+  gap: 20px;
+}
+.login h2 {
+  font-size: 2em;
+  color: #100f0f;
+}
+.input__box {
+  position: relative;
+  width: 100%;
+}
+.input__box input,
+.input__box button {
+  position: relative;
+  width: 100%;
+  font-size: 1.2em;
+  color: #120e0e;
+  background: transparent;
+  border: 2px solid #100d0d;
+  border-radius: 40px;
+  padding: 12px 20px;
+  outline: none;
+  box-shadow: none;
+}
+.input__box button {
+  font-size: 1.2em;
+  background: linear-gradient(45deg, #ff357a, #fff172);
+  border: none;
+  cursor: pointer;
+}
+.input__box input::placeholder {
+  color: rgba(7, 5, 5, 0.75);
+}
+.input__links {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+}
+.input__links a {
+  text-decoration: none;
+  color: #050404;
+}
+.container i {
+  position: absolute;
+  inset: 0;
+  border: 2px solid #0a0808;
+  transition: 0.5s;
+}
+
+.container i:nth-child(1) {
+  border-radius: 66% 34% 67% 33% / 27% 65% 35% 73%;
+  animation: animate 14s linear infinite;
+}
+.container i:nth-child(2) {
+  border-radius: 53% 47% 53% 47% / 50% 40% 60% 50%;
+  animation: animate 13s linear infinite;
+}
+.container i:nth-child(3) {
+  border-radius: 41% 59% 43% 57% / 57% 30% 70% 43%;
+  animation: animate 15s linear infinite;
+}
+
+.container:hover i:nth-child(1) {
+  animation: animate 5s linear infinite;
+}
+.container:hover i:nth-child(2) {
+  animation: animate 7s linear infinite;
+}
+.container:hover i:nth-child(3) {
+  animation: animate 6s linear infinite;
+}

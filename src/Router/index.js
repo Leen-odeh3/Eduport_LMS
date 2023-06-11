@@ -7,6 +7,7 @@ import Contact from './../component/Contact/Contact'
 import  Events from './../component/Events/Events'
 import Courses from './../component/Courses/Courses'
 import Myaccount from "../component/Myaccount/Myaccount";
+import Settings from "../component/Settings/Settings";
 function App() {
   
   return (
@@ -19,7 +20,8 @@ function App() {
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/events" element={<Events/>}/>
           <Route path="/courses" element={<Courses/>} />
-          <Route path="/Myaccount" element={<Myaccount/>}/>
+          <Route path="/MyProfile" element={<Myaccount/>}/>
+          <Route path="/Settings" element={<Settings/>}/>
           <Route path="*" element={<img src="img/error.png" alt="" />} />
         </Route>
       </Routes>

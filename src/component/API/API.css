@@ -10,7 +10,7 @@
 
 .allco{
     margin-left: 50px;
-    display: flex;
+    display: flex !important; 
     gap:50px;
     align-content: center;
     margin-top: 50px;
