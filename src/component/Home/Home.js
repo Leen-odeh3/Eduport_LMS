@@ -19,10 +19,10 @@ const Home = () => {
           <Card />
         </Grid>
         <Grid item xs={12} style={{ height: "1900px" }}>
-         <API/>
+          <API />
         </Grid>
         <Grid item xs={12} style={{ height: "300px" }}>
-          <Teaching/>
+          <Teaching />
         </Grid>
         <Grid item xs={12} style={{ height: "0px" }}>
           {/* Sec 6 */}

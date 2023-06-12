@@ -1,13 +1,13 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import TextField from '@mui/material/TextField';
+import * as React from "react";
+import Box from "@mui/material/Box";
+import TextField from "@mui/material/TextField";
 
 export default function TextFieldSizes() {
   return (
     <Box
       component="form"
       sx={{
-        '& .MuiTextField-root': { m: 1, width: '25ch' },
+        "& .MuiTextField-root": { m: 1, width: "25ch" },
       }}
       noValidate
       autoComplete="off"
@@ -19,7 +19,11 @@ export default function TextFieldSizes() {
           defaultValue="Lori Steven"
           size="small"
         />
-        <TextField label="Email id" id="outlined-size-normal" defaultValue="example@gmail.com" />
+        <TextField
+          label="Email id"
+          id="outlined-size-normal"
+          defaultValue="example@gmail.com"
+        />
       </div>
       <div>
         <TextField
@@ -33,7 +37,6 @@ export default function TextFieldSizes() {
           label="Phone number"
           id="filled-size-normal"
           defaultValue="123456789"
-        
         />
       </div>
       <div>

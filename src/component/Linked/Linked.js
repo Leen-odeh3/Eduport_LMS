@@ -66,6 +66,18 @@ export default function Linked() {
             </Step>
           ))}
         </Stepper>
+        <Button
+          variant="contained"
+          sx={{
+            marginTop: 12,
+            marginLeft: 16,
+            height: "60px",
+            width: 300,
+            marginBottom: "40px",
+          }}
+        >
+          Save Changes
+        </Button>
       </Box>
     </div>
   );

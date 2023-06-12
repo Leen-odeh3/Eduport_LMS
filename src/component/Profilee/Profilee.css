@@ -1,0 +1,45 @@
+.coo0on{
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+
+.wo{
+    position: absolute;
+    left:200px;
+    top:-55%;
+}
+.koi{
+    display: flex;
+    gap:50px;
+    height: 600px;
+    margin-bottom: -27px;
+}
+.div{
+    display: block;
+}
+.coo0on{
+    display: flex;
+    gap:90px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+.one-div{
+    height: 250px;
+}
+.learning {
+    width: 850px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imk {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.bn {
+    top: -35px;
+}

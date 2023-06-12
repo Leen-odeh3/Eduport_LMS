@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="mo">
       <div className="aallll">
         <div className="main">
-          <Edu />{" "}
+          <Edu />
         </div>
         <div className="aas">
           <Company />

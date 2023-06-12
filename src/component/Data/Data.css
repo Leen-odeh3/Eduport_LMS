@@ -1,9 +1,11 @@
 .info {
     background-color: #24292d;
-    width: 200px;
-    padding: 20px;
-    margin-left: 70px;
+    width: 180px;
+    padding: 30px;
+    margin-left: 60px;
     border-radius: 5px;
+    padding-bottom: 50px;
+
 }
 
 .Inf {
