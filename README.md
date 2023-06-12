@@ -11,6 +11,7 @@ Eduport education theme, built specifically for the education centers which is d
 
 # 🚀 Usage
 To run this project in your local device:
+
 • Clone the project's repository: git clone https://github.com/Leen-odeh12/Eduport_LMS.git
 
 • Navigate to the project directory: cd Eduport_LMS
