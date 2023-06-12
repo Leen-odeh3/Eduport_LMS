@@ -1,5 +1,7 @@
 # Eduport_LMS
-# 💻 Technologies Used
+Eduport education theme, built specifically for the education centers which is dedicated to teaching and involve learners.
+
+# 💻 Technologies & public APIs used
 * React
 * Hooks
 * React Router
