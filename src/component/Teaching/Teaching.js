@@ -4,7 +4,7 @@ import "./Teaching.css";
 const Teaching = () => {
   return (
     <div className="teach">
-      <h1>Become an Instructor! </h1>
+      <h1 className="her">Become an Instructor! </h1>
       <p className="say">
         Speedily say has suitable disposal add boy. On forth doubt miles of
         child. Exercise joy man children rejoiced. Yet uncommonly his ten who

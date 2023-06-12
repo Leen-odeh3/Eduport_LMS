@@ -55,7 +55,6 @@ const Courses = () => {
                       style={{ color: "#0cbc87", fontWeight: "bold" }}
                       endIcon={<FavoriteBorderIcon />}
                     >
-                      {" "}
                       {Courses.level}
                     </Button>
                     <Typography gutterBottom variant="h5" component="div">
@@ -121,7 +120,7 @@ const Courses = () => {
           <p>Choose from hundreds of courses from specialist organizations</p>
         </div>
       </div>
-      <div>{loading ? <Loading /> : <ShowCourse />}</div>
+      <div> {loading ? <Loading /> : <ShowCourse />}</div>
     </div>
   );
 };

@@ -1,0 +1,23 @@
+.info {
+    background-color: #24292d;
+    width: 180px;
+    padding: 30px;
+    margin-left: 60px;
+    border-radius: 5px;
+    padding-bottom: 50px;
+
+}
+
+.Inf {
+    display: flex;
+    gap: 10px;
+    color: aliceblue;
+    padding-top: 10px;
+}
+
+.Inf:hover {
+    background-color: aliceblue;
+    color: #24292d;
+    padding-left: 12px;
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.two {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 10px;
+}
+
+.se {
+    padding-top: 40px;
+}
+
+@media (max-width:700px) {
+    .two {
+        display: block;
+        gap: 10px;
+        width: 700px;
+    }
+}

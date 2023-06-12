@@ -1,11 +1,23 @@
 h5 {
     color: #747579;
+    margin-bottom: 15px;
+}
+
+h5:hover {
+    color: rgb(68, 68, 245);
+    cursor: pointer;
+}
+
+.childa1,
+.childa2,
+.childa3 {
+    width: 130px;
 }
 
 .Merr {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 60px;
     position: relative;
 }
 
@@ -17,7 +29,6 @@ h5 {
 .a1 {
     left: 90px;
 }
-
 .a2 {
     left: 250px;
 }

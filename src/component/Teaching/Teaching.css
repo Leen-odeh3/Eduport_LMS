@@ -7,12 +7,12 @@
     margin-left: 40px;
 }
 
-h1,
+.her,
 .say {
     color: white;
 }
 
-p {
+.say {
     width: 800px;
 }
 

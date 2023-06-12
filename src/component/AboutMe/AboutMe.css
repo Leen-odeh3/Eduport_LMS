@@ -1,0 +1,32 @@
+.aboutme{
+    margin-left: 70px;
+}
+.sociala{
+    height: 600px;
+    width:50%;
+}
+.aa,.bb,.cc,.dd{
+       width: 20px;
+       height: 50px;
+}
+.aa{
+    color:#24292f;  
+}
+.bb{
+    color:#238cc8;
+}
+.cc{
+    color:#5d82d1;
+}
+.dd{
+    color:#c22b72;
+}
+.offff{
+    display: flex;
+    align-items: center;
+}
+.aria{
+    display: flex;
+    gap:10px;
+    margin-bottom: 50px;
+}

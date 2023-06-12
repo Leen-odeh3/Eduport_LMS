@@ -1,0 +1,55 @@
+.a1,
+.b1,
+.c1,
+.d1,
+.f1,
+.i1,
+.m1,
+.n1,
+.e1,
+.g1,
+.h1,
+.k1 {
+    width: 250px;
+}
+
+.a1,
+.b1,
+.c1,
+.d1,
+.f1,
+.i1,
+.m1,
+.n1,
+.e1,
+.g1,
+.h1,
+.k1:hover {
+    cursor: pointer;
+}
+
+.a1 {
+    background-color: rgb(162, 235, 235);
+}
+
+.partco {
+    margin-left: 50px;
+    display: flex;
+    gap: 50px;
+    align-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+@media (max-width:700px) {
+    .col {
+        position: absolute;
+        top: 950px;
+    }
+
+    .partco {
+        position: absolute;
+        top: 1100px;
+        display: block;
+    }
+}
