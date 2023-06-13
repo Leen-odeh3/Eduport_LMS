@@ -4,7 +4,7 @@ import Box from "@mui/material/Box";
 
 export default function Message() {
   return (
-    <Box>
+    <Box className="mes">
       <img src="img/message.png" alt="" className="message" />
     </Box>
   );

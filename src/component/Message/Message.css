@@ -1,6 +1,10 @@
+
+.mes{
+    position: relative;
+}
 .message {
     position: absolute;
-    top: 190px;
+    top: 80px;
     right: 16px;
     z-index: 100;
     width: 200px;

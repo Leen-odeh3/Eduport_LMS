@@ -1,7 +1,9 @@
 body {
     position: relative;
 }
-
+.imgs{
+    position: relative;
+}
 .react,
 .star,
 .person,
@@ -12,25 +14,23 @@ body {
 }
 
 .circular {
-    top: 80px;
     left: 60px;
 }
 
 .star {
-    top: 150px;
-    left: 290px;
+    top:25px;
+    left: 300px;
     width: 50px;
 }
 
 .person {
     height: 550px;
-    top: 100px;
     right: 60px;
 }
 
 .react {
-    top: 280px;
-    right: 510px;
+    top: 290px;
+    right: 535px;
     border-radius: 4px;
     width: 55px;
     height: 55px;
@@ -39,12 +39,12 @@ body {
 
 .sttar {
     left: 540px;
-    top: 490px;
+    top: 470px;
 }
 
 .figma {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
-    right: 35px;
+    right: 65px;
     top: 400px;
     border-radius: 7px;
     width: 45px;
