@@ -22,7 +22,7 @@ function App() {
           <Route path="/courses" element={<Courses/>} />
           <Route path="/Myaccount" element={<Profilee/>} />
           <Route path="/Settings" element={<Settings/>}/>
-          <Route path="*" element={<img src="img/error.png" alt="" />} />
+          <Route path="*" element={<img src="img/error.png" alt="not-found" />} />
         </Route>
       </Routes>
    
